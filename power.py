@@ -7,4 +7,4 @@ change_opt = input("Change? y/n: ")
 
 if(change_opt == "y"):
     ch_val = input("Enter New Value: ")
-power_cfg.write(ch_val)
+    power_cfg.write(ch_val)
